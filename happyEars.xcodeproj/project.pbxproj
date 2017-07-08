@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C563FAFB1F116E1400AB8C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C563FAFA1F116E1400AB8C14 /* AppDelegate.swift */; };
+		C563FAFD1F116E1400AB8C14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C563FAFC1F116E1400AB8C14 /* ViewController.swift */; };
+		C563FB001F116E1400AB8C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C563FAFE1F116E1400AB8C14 /* Main.storyboard */; };
+		C563FB021F116E1400AB8C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C563FB011F116E1400AB8C14 /* Assets.xcassets */; };
+		C563FB051F116E1400AB8C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C563FB031F116E1400AB8C14 /* LaunchScreen.storyboard */; };
+		C563FB101F116E1400AB8C14 /* happyEarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C563FB0F1F116E1400AB8C14 /* happyEarsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C563FB0C1F116E1400AB8C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C563FAEF1F116E1400AB8C14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C563FAF61F116E1400AB8C14;
+			remoteInfo = happyEars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C563FAF71F116E1400AB8C14 /* happyEars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = happyEars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C563FAFA1F116E1400AB8C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C563FAFC1F116E1400AB8C14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C563FAFF1F116E1400AB8C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C563FB011F116E1400AB8C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C563FB041F116E1400AB8C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C563FB061F116E1400AB8C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C563FB0B1F116E1400AB8C14 /* happyEarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happyEarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C563FB0F1F116E1400AB8C14 /* happyEarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happyEarsTests.swift; sourceTree = "<group>"; };
+		C563FB111F116E1400AB8C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C563FAF41F116E1400AB8C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C563FB081F116E1400AB8C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C563FAEE1F116E1400AB8C14 = {
+			isa = PBXGroup;
+			children = (
+				C563FAF91F116E1400AB8C14 /* happyEars */,
+				C563FB0E1F116E1400AB8C14 /* happyEarsTests */,
+				C563FAF81F116E1400AB8C14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C563FAF81F116E1400AB8C14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C563FAF71F116E1400AB8C14 /* happyEars.app */,
+				C563FB0B1F116E1400AB8C14 /* happyEarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C563FAF91F116E1400AB8C14 /* happyEars */ = {
+			isa = PBXGroup;
+			children = (
+				C563FAFA1F116E1400AB8C14 /* AppDelegate.swift */,
+				C563FAFC1F116E1400AB8C14 /* ViewController.swift */,
+				C563FAFE1F116E1400AB8C14 /* Main.storyboard */,
+				C563FB011F116E1400AB8C14 /* Assets.xcassets */,
+				C563FB031F116E1400AB8C14 /* LaunchScreen.storyboard */,
+				C563FB061F116E1400AB8C14 /* Info.plist */,
+			);
+			path = happyEars;
+			sourceTree = "<group>";
+		};
+		C563FB0E1F116E1400AB8C14 /* happyEarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C563FB0F1F116E1400AB8C14 /* happyEarsTests.swift */,
+				C563FB111F116E1400AB8C14 /* Info.plist */,
+			);
+			path = happyEarsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C563FAF61F116E1400AB8C14 /* happyEars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C563FB141F116E1400AB8C14 /* Build configuration list for PBXNativeTarget "happyEars" */;
+			buildPhases = (
+				C563FAF31F116E1400AB8C14 /* Sources */,
+				C563FAF41F116E1400AB8C14 /* Frameworks */,
+				C563FAF51F116E1400AB8C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = happyEars;
+			productName = happyEars;
+			productReference = C563FAF71F116E1400AB8C14 /* happyEars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C563FB0A1F116E1400AB8C14 /* happyEarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C563FB171F116E1400AB8C14 /* Build configuration list for PBXNativeTarget "happyEarsTests" */;
+			buildPhases = (
+				C563FB071F116E1400AB8C14 /* Sources */,
+				C563FB081F116E1400AB8C14 /* Frameworks */,
+				C563FB091F116E1400AB8C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C563FB0D1F116E1400AB8C14 /* PBXTargetDependency */,
+			);
+			name = happyEarsTests;
+			productName = happyEarsTests;
+			productReference = C563FB0B1F116E1400AB8C14 /* happyEarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C563FAEF1F116E1400AB8C14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Lilac LLC";
+				TargetAttributes = {
+					C563FAF61F116E1400AB8C14 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C563FB0A1F116E1400AB8C14 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C563FAF61F116E1400AB8C14;
+					};
+				};
+			};
+			buildConfigurationList = C563FAF21F116E1400AB8C14 /* Build configuration list for PBXProject "happyEars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C563FAEE1F116E1400AB8C14;
+			productRefGroup = C563FAF81F116E1400AB8C14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C563FAF61F116E1400AB8C14 /* happyEars */,
+				C563FB0A1F116E1400AB8C14 /* happyEarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C563FAF51F116E1400AB8C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C563FB051F116E1400AB8C14 /* LaunchScreen.storyboard in Resources */,
+				C563FB021F116E1400AB8C14 /* Assets.xcassets in Resources */,
+				C563FB001F116E1400AB8C14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C563FB091F116E1400AB8C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C563FAF31F116E1400AB8C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C563FAFD1F116E1400AB8C14 /* ViewController.swift in Sources */,
+				C563FAFB1F116E1400AB8C14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C563FB071F116E1400AB8C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C563FB101F116E1400AB8C14 /* happyEarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C563FB0D1F116E1400AB8C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C563FAF61F116E1400AB8C14 /* happyEars */;
+			targetProxy = C563FB0C1F116E1400AB8C14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C563FAFE1F116E1400AB8C14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C563FAFF1F116E1400AB8C14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C563FB031F116E1400AB8C14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C563FB041F116E1400AB8C14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C563FB121F116E1400AB8C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C563FB131F116E1400AB8C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C563FB151F116E1400AB8C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = happyEars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.happyEars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C563FB161F116E1400AB8C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = happyEars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.happyEars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C563FB181F116E1400AB8C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = happyEarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.happyEarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happyEars.app/happyEars";
+			};
+			name = Debug;
+		};
+		C563FB191F116E1400AB8C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = happyEarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.happyEarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happyEars.app/happyEars";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C563FAF21F116E1400AB8C14 /* Build configuration list for PBXProject "happyEars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C563FB121F116E1400AB8C14 /* Debug */,
+				C563FB131F116E1400AB8C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C563FB141F116E1400AB8C14 /* Build configuration list for PBXNativeTarget "happyEars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C563FB151F116E1400AB8C14 /* Debug */,
+				C563FB161F116E1400AB8C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C563FB171F116E1400AB8C14 /* Build configuration list for PBXNativeTarget "happyEarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C563FB181F116E1400AB8C14 /* Debug */,
+				C563FB191F116E1400AB8C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C563FAEF1F116E1400AB8C14 /* Project object */;
+}
