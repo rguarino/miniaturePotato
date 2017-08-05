@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85280A6AE8FF446648DA9A84 /* Pods_happyEarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60C5276ADDE986267DB9465 /* Pods_happyEarsTests.framework */; };
+		B6A309BFF5C9C1BCE5A276B0 /* Pods_happyEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A891CE7B2546844130420E3B /* Pods_happyEars.framework */; };
 		C563FAFB1F116E1400AB8C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C563FAFA1F116E1400AB8C14 /* AppDelegate.swift */; };
 		C563FAFD1F116E1400AB8C14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C563FAFC1F116E1400AB8C14 /* ViewController.swift */; };
 		C563FB001F116E1400AB8C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C563FAFE1F116E1400AB8C14 /* Main.storyboard */; };
@@ -26,6 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EAFDA88EECA577C521ABAAF /* Pods-happyEars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-happyEars.release.xcconfig"; path = "Pods/Target Support Files/Pods-happyEars/Pods-happyEars.release.xcconfig"; sourceTree = "<group>"; };
+		7EFC7E7A2F893D28BB282692 /* Pods-happyEarsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-happyEarsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-happyEarsTests/Pods-happyEarsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8402B59610274F0BD76B8A46 /* Pods-happyEars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-happyEars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-happyEars/Pods-happyEars.debug.xcconfig"; sourceTree = "<group>"; };
+		873B5C6EEDBF51028C35080B /* Pods-happyEarsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-happyEarsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-happyEarsTests/Pods-happyEarsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A60C5276ADDE986267DB9465 /* Pods_happyEarsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_happyEarsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A891CE7B2546844130420E3B /* Pods_happyEars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_happyEars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C563FAF71F116E1400AB8C14 /* happyEars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = happyEars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C563FAFA1F116E1400AB8C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C563FAFC1F116E1400AB8C14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A309BFF5C9C1BCE5A276B0 /* Pods_happyEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85280A6AE8FF446648DA9A84 /* Pods_happyEarsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C08468706C3863A51EC8E8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A891CE7B2546844130420E3B /* Pods_happyEars.framework */,
+				A60C5276ADDE986267DB9465 /* Pods_happyEarsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C7A49C5EB8F820FCBF0745D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8402B59610274F0BD76B8A46 /* Pods-happyEars.debug.xcconfig */,
+				2EAFDA88EECA577C521ABAAF /* Pods-happyEars.release.xcconfig */,
+				7EFC7E7A2F893D28BB282692 /* Pods-happyEarsTests.debug.xcconfig */,
+				873B5C6EEDBF51028C35080B /* Pods-happyEarsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C563FAEE1F116E1400AB8C14 = {
 			isa = PBXGroup;
 			children = (
 				C563FAF91F116E1400AB8C14 /* happyEars */,
 				C563FB0E1F116E1400AB8C14 /* happyEarsTests */,
 				C563FAF81F116E1400AB8C14 /* Products */,
+				5C7A49C5EB8F820FCBF0745D /* Pods */,
+				1C08468706C3863A51EC8E8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C563FB141F116E1400AB8C14 /* Build configuration list for PBXNativeTarget "happyEars" */;
 			buildPhases = (
+				CFE8BDE4E92C166CEDF6FB58 /* [CP] Check Pods Manifest.lock */,
 				C563FAF31F116E1400AB8C14 /* Sources */,
 				C563FAF41F116E1400AB8C14 /* Frameworks */,
 				C563FAF51F116E1400AB8C14 /* Resources */,
+				2291F29288050E1B112D3359 /* [CP] Embed Pods Frameworks */,
+				BCA7A5C1E80728B66257D880 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C563FB171F116E1400AB8C14 /* Build configuration list for PBXNativeTarget "happyEarsTests" */;
 			buildPhases = (
+				DAA9F2D5628BECF8E8683EEF /* [CP] Check Pods Manifest.lock */,
 				C563FB071F116E1400AB8C14 /* Sources */,
 				C563FB081F116E1400AB8C14 /* Frameworks */,
 				C563FB091F116E1400AB8C14 /* Resources */,
+				586EFF5851146889FFA28AF7 /* [CP] Embed Pods Frameworks */,
+				3B3146D3FB9403B9A3F3EF53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2291F29288050E1B112D3359 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-happyEars/Pods-happyEars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B3146D3FB9403B9A3F3EF53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-happyEarsTests/Pods-happyEarsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		586EFF5851146889FFA28AF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-happyEarsTests/Pods-happyEarsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCA7A5C1E80728B66257D880 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-happyEars/Pods-happyEars-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE8BDE4E92C166CEDF6FB58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA9F2D5628BECF8E8683EEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C563FAF31F116E1400AB8C14 /* Sources */ = {
@@ -339,6 +470,7 @@
 		};
 		C563FB151F116E1400AB8C14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8402B59610274F0BD76B8A46 /* Pods-happyEars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = happyEars/Info.plist;
@@ -351,6 +483,7 @@
 		};
 		C563FB161F116E1400AB8C14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAFDA88EECA577C521ABAAF /* Pods-happyEars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = happyEars/Info.plist;
@@ -363,6 +496,7 @@
 		};
 		C563FB181F116E1400AB8C14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFC7E7A2F893D28BB282692 /* Pods-happyEarsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,6 +511,7 @@
 		};
 		C563FB191F116E1400AB8C14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873B5C6EEDBF51028C35080B /* Pods-happyEarsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import UICircularProgressRing
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var progressRing: UICircularProgressRingView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
