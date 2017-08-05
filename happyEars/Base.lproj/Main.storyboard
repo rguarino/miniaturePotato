@@ -22,39 +22,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="D9m-Je-1RF">
-                                <rect key="frame" x="16" y="40" width="343" height="577"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hpf-kP-zHv">
-                                        <rect key="frame" x="0.0" y="0.0" width="46" height="317"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="dB" borderStyle="roundedRect" textAlignment="center" minimumFontSize="32" translatesAutoresizingMaskIntoConstraints="NO" id="5ok-6n-QU9">
-                                        <rect key="frame" x="0.0" y="317" width="39" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="201" placeholderIntrinsicHeight="200" translatesAutoresizingMaskIntoConstraints="NO" id="xzF-8g-bze" customClass="UICircularProgressRingView" customModule="UICircularProgressRing">
-                                        <rect key="frame" x="0.0" y="347" width="201" height="200"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Time left at this volume: time" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5HW-O1-GqT">
-                                        <rect key="frame" x="0.0" y="547" width="208" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                </subviews>
-                                <rect key="contentStretch" x="0.80000000000000004" y="0.0" width="1" height="1"/>
-                            </stackView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="201" placeholderIntrinsicHeight="200" translatesAutoresizingMaskIntoConstraints="NO" id="xzF-8g-bze" customClass="UICircularProgressRingView" customModule="UICircularProgressRing">
+                                <rect key="frame" x="59" y="267" width="257" height="265"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzE-QJ-VyG">
+                                <rect key="frame" x="313" y="28" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="100 dB" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="luU-VA-ZaH">
+                                <rect key="frame" x="73" y="82" width="229" height="138"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="58"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Time left at this volume:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Prq-G1-s7e">
+                                <rect key="frame" x="99" y="555" width="176" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="D9m-Je-1RF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="GzB-Ju-Xwx"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="D9m-Je-1RF" secondAttribute="bottom" constant="50" id="asx-Er-BM3"/>
-                            <constraint firstItem="D9m-Je-1RF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="brC-7u-fQr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="D9m-Je-1RF" secondAttribute="trailing" id="ulj-te-LlT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pzE-QJ-VyG" secondAttribute="trailing" id="7gT-jh-p4C"/>
+                            <constraint firstItem="luU-VA-ZaH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="98" id="KK5-Ei-aoH"/>
+                            <constraint firstItem="pzE-QJ-VyG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="297" id="LpF-FH-Acv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pzE-QJ-VyG" secondAttribute="bottom" constant="609" id="ShZ-d3-ePK"/>
+                            <constraint firstItem="pzE-QJ-VyG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="SnW-x9-h5u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Prq-G1-s7e" secondAttribute="trailing" constant="84" id="etL-UP-bke"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="luU-VA-ZaH" secondAttribute="trailing" constant="99" id="l1m-ql-EIJ"/>
+                            <constraint firstItem="Prq-G1-s7e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="83" id="mh8-ri-zye"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Prq-G1-s7e" secondAttribute="bottom" constant="82" id="rdT-Yg-s5h"/>
                         </constraints>
                     </view>
                     <connections>
