@@ -10,6 +10,9 @@ import UIKit
 import UICircularProgressRing
 
 class ViewController: UIViewController {
+    
+    // MARK: Properties
+    
 
     @IBOutlet weak var progressRing: UICircularProgressRingView!
     
