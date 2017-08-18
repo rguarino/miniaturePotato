@@ -15,6 +15,8 @@
 		C563FB021F116E1400AB8C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C563FB011F116E1400AB8C14 /* Assets.xcassets */; };
 		C563FB051F116E1400AB8C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C563FB031F116E1400AB8C14 /* LaunchScreen.storyboard */; };
 		C563FB101F116E1400AB8C14 /* happyEarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C563FB0F1F116E1400AB8C14 /* happyEarsTests.swift */; };
+		CB238B3A1F47689700D643B9 /* mainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB238B391F47689700D643B9 /* mainNavigationController.swift */; };
+		CB238B3C1F47786F00D643B9 /* settingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB238B3B1F47786F00D643B9 /* settingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C563FB0B1F116E1400AB8C14 /* happyEarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happyEarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C563FB0F1F116E1400AB8C14 /* happyEarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happyEarsTests.swift; sourceTree = "<group>"; };
 		C563FB111F116E1400AB8C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB238B391F47689700D643B9 /* mainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainNavigationController.swift; sourceTree = "<group>"; };
+		CB238B3B1F47786F00D643B9 /* settingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				C563FB011F116E1400AB8C14 /* Assets.xcassets */,
 				C563FB031F116E1400AB8C14 /* LaunchScreen.storyboard */,
 				C563FB061F116E1400AB8C14 /* Info.plist */,
+				CB238B391F47689700D643B9 /* mainNavigationController.swift */,
+				CB238B3B1F47786F00D643B9 /* settingsTableViewController.swift */,
 			);
 			path = happyEars;
 			sourceTree = "<group>";
@@ -330,8 +336,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB238B3C1F47786F00D643B9 /* settingsTableViewController.swift in Sources */,
 				C563FAFD1F116E1400AB8C14 /* ViewController.swift in Sources */,
 				C563FAFB1F116E1400AB8C14 /* AppDelegate.swift in Sources */,
+				CB238B3A1F47689700D643B9 /* mainNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +551,7 @@
 				C563FB161F116E1400AB8C14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C563FB171F116E1400AB8C14 /* Build configuration list for PBXNativeTarget "happyEarsTests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +560,7 @@
 				C563FB191F116E1400AB8C14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

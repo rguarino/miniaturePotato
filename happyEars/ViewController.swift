@@ -19,31 +19,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad() 
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        //UINavigationBar
-        //create a new button
-        let button = UIButton.init(type: .custom)
-        //set image for button
-        button.setImage(UIImage(named: "settingsCog"), for: UIControlState.normal)
-        //add function for button
-        button.addTarget(self, action: #selector(ViewController.fbButtonPressed), for: UIControlEvents.touchUpInside)
-        //set frame
-        button.frame = CGRect(x: 0, y: 0, width: 53, height: 51)
-        let barButton = UIBarButtonItem(customView: button)
-        //assign button to navigationbar
-        self.navigationItem.rightBarButtonItem = barButton
-    }
+      }
     
-    //This method will call when you press button.
-    func fbButtonPressed() {
-        
-        print("Share to fb")
-    }
-
-    override func didReceiveMemoryWarning() {
+     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    @IBAction func settingsGoTo(_ sender: Any) {
+        
+        let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "mainNavigationController") as! mainNavigationController
+        
+        present(mainNavigationController, animated: true, completion: nil)
     }
 
 
