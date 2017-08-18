@@ -7,12 +7,11 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Happy Ears-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="happyEars" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,7 +41,10 @@
                                 <rect key="frame" x="64" y="199.5" width="192" height="192"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="jzb-YJ-HHs" firstAttribute="centerY" secondItem="xzF-8g-bze" secondAttribute="centerY" id="EIg-OU-yqB"/>
+                                    <constraint firstItem="jzb-YJ-HHs" firstAttribute="width" secondItem="xzF-8g-bze" secondAttribute="height" multiplier="167:241" id="GFe-eM-gPa"/>
                                     <constraint firstAttribute="width" secondItem="xzF-8g-bze" secondAttribute="height" multiplier="200:200" id="atd-Dg-tso"/>
+                                    <constraint firstItem="jzb-YJ-HHs" firstAttribute="centerX" secondItem="xzF-8g-bze" secondAttribute="centerX" id="es4-z7-4op"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="innerRingWidth">
@@ -52,7 +54,7 @@
                                         <real key="value" value="26"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
-                                        <color key="value" red="0.61874913949999999" green="0.22285792939999999" blue="0.62508689979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="innerRingColor">
                                         <color key="value" red="0.61874913949999999" green="0.22285792939999999" blue="0.62508689979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -63,7 +65,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="innerRingCapStyle">
                                         <integer key="value" value="0"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shouldShowValueText" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shouldShowValueText" value="NO"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="value">
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
@@ -101,32 +103,38 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="c0S-u1-xOQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" constant="3" id="3Jc-6Y-HaB"/>
-                            <constraint firstItem="pzE-QJ-VyG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="5Qy-2M-DyW"/>
-                            <constraint firstItem="pzE-QJ-VyG" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="45:667" id="6Rs-Ef-zZM"/>
-                            <constraint firstItem="yec-QE-nMh" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="45:736" id="BBH-HY-EFB"/>
                             <constraint firstItem="c0S-u1-xOQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BDO-jZ-69y"/>
-                            <constraint firstItem="xzF-8g-bze" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.25" constant="-4.375" id="CLy-jy-zxo"/>
-                            <constraint firstItem="yec-QE-nMh" firstAttribute="top" secondItem="pzE-QJ-VyG" secondAttribute="top" id="K6W-EF-dTW"/>
-                            <constraint firstItem="yec-QE-nMh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="KKb-nk-n7I"/>
-                            <constraint firstItem="pzE-QJ-VyG" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="45:667" id="Srr-Xm-bKU"/>
+                            <constraint firstItem="xzF-8g-bze" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.08" id="CLy-jy-zxo"/>
+                            <constraint firstItem="a5K-N9-Jax" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EnC-4w-Edd"/>
+                            <constraint firstItem="a5K-N9-Jax" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="FEK-hB-jCj"/>
+                            <constraint firstItem="a5K-N9-Jax" firstAttribute="centerX" secondItem="xzF-8g-bze" secondAttribute="centerX" id="Uyk-aD-MBP"/>
+                            <constraint firstItem="a5K-N9-Jax" firstAttribute="top" secondItem="xzF-8g-bze" secondAttribute="bottom" constant="21" id="ZEj-KJ-U6M"/>
                             <constraint firstItem="c0S-u1-xOQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="175:667" id="ceu-qc-JFT"/>
                             <constraint firstItem="xzF-8g-bze" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="ss6-Fy-spy"/>
-                            <constraint firstItem="pzE-QJ-VyG" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yH9-id-fhM"/>
                             <constraint firstItem="xzF-8g-bze" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zOc-An-vEr"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Happy Ears" id="hQY-Bt-kko">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="AW4-EU-xS2">
+                            <connections>
+                                <segue destination="rdT-n7-Z7L" kind="show" id="lbK-Mp-l7O"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="progressRing" destination="xzF-8g-bze" id="OUw-3B-C4u"/>
+                        <segue destination="rdT-n7-Z7L" kind="show" id="Q4d-ri-jU9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="111.59420289855073" y="-507.88043478260875"/>
+            <point key="canvasLocation" x="-140" y="-601"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="ymP-Ib-D93">
+        <!--Settings-->
+        <scene sceneID="jGs-VL-IAD">
             <objects>
                 <viewController id="IdE-M3-Z99" sceneMemberID="viewController">
                     <layoutGuides>
@@ -137,14 +145,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="poD-un-qc9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="lHk-DG-Jgw">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lHk-DG-Jgw" id="8Hl-3v-jnf">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rdT-n7-Z7L" id="pEB-Ba-zhD"/>
+                            <outlet property="delegate" destination="rdT-n7-Z7L" id="9Ah-k7-NaN"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Settings" id="QIT-Hg-Pha"/>
+                </tableViewController>
             </objects>
-            <point key="canvasLocation" x="974" y="-508"/>
+            <point key="canvasLocation" x="564" y="-601"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8mn-op-GI0">
+            <objects>
+                <navigationController id="S5H-DQ-HuP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pLK-5O-DLR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ToY-9e-POx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="opl-as-7dQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-815" y="-600"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="settingscog" width="256" height="256"/>
-    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Q4d-ri-jU9"/>
+    </inferredMetricsTieBreakers>
 </document>
